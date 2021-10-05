@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Livesport-api-ukol/static/css/main.415a006e.chunk.css",
+    "main.js": "/Livesport-api-ukol/static/js/main.98ba2d02.chunk.js",
+    "main.js.map": "/Livesport-api-ukol/static/js/main.98ba2d02.chunk.js.map",
+    "runtime-main.js": "/Livesport-api-ukol/static/js/runtime-main.c08096d1.js",
+    "runtime-main.js.map": "/Livesport-api-ukol/static/js/runtime-main.c08096d1.js.map",
+    "static/js/2.a3895c67.chunk.js": "/Livesport-api-ukol/static/js/2.a3895c67.chunk.js",
+    "static/js/2.a3895c67.chunk.js.map": "/Livesport-api-ukol/static/js/2.a3895c67.chunk.js.map",
+    "static/js/3.3890e6b0.chunk.js": "/Livesport-api-ukol/static/js/3.3890e6b0.chunk.js",
+    "static/js/3.3890e6b0.chunk.js.map": "/Livesport-api-ukol/static/js/3.3890e6b0.chunk.js.map",
+    "index.html": "/Livesport-api-ukol/index.html",
+    "static/css/main.415a006e.chunk.css.map": "/Livesport-api-ukol/static/css/main.415a006e.chunk.css.map",
+    "static/js/2.a3895c67.chunk.js.LICENSE.txt": "/Livesport-api-ukol/static/js/2.a3895c67.chunk.js.LICENSE.txt",
+    "static/media/cancel.9a9d54e5.svg": "/Livesport-api-ukol/static/media/cancel.9a9d54e5.svg",
+    "static/media/App.scss": "/Livesport-api-ukol/static/media/star1.de82f684.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c08096d1.js",
+    "static/js/2.a3895c67.chunk.js",
+    "static/css/main.415a006e.chunk.css",
+    "static/js/main.98ba2d02.chunk.js"
+  ]
+}

@@ -1,0 +1,211 @@
+
+$green-color: rgba(12, 120, 0, 0.507);
+$green-light-color: rgba(12, 120, 0, 0.1);
+$blue-color: rgba(0, 106, 255, 0.541);
+$blue-light-color: rgba(0, 105, 253, 0.105);
+$body-background: hsl(222, 14%, 10%);
+$white-color: rgba(245, 245, 245, 0.842);
+
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 12px;
+}
+body{
+  background-color: $body-background;
+  color: $white-color;
+  overflow-y: hidden;
+}
+.start-text{
+  text-align: center;
+}
+.container-item:nth-child(odd){
+  background-color: $blue-light-color;
+}
+
+.input{
+  box-sizing: border-box;
+  color:white ;
+  margin: 5px;
+  width: 190px;
+  height: 30px;
+  border:1px solid $blue-color;
+  background-color: $blue-light-color;
+  border-radius: 5px;
+}
+
+
+.control{
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.input:focus{
+  outline: none;
+}
+
+.input::placeholder{
+  color: $white-color;
+}
+.results{
+  text-align: start;
+  margin: 0 auto;
+  height: 600px;
+  width: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-radius: 5px;
+  background-color: $body-background;
+  border: 1.5px solid $blue-color;
+
+}
+.filter-list{
+  margin: 0 auto;
+}
+.grid{
+  min-height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  padding: 5px;
+  border-bottom: 0.1px solid $blue-color;
+}
+.left-side{
+  display: grid;
+}
+.left-side h4{
+  margin: 0;
+  text-align: start;
+}
+.sport-name{
+  text-align: start;
+  color: grey;
+  text-transform: uppercase;
+}
+.start-picture{
+margin: auto;
+}
+.start-picture img{
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 45px;
+}
+.checkbox{
+  margin: auto;
+}
+.default-country{
+  margin: auto;
+}
+.btns-container{
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+}
+
+.btn-all,.btn-competitons,.btn-teams{
+  text-decoration: none;
+  color: white;
+  margin: 5px 10px 5px 0;
+  background-color: $blue-light-color;
+  border: 1px solid $blue-color;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+.is-active{
+  background-color: $green-light-color;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid $green-color;
+}
+
+.end-text{
+  padding-top: 10px;
+  color: gray;
+  text-align: center;
+  font-weight: bold;
+}
+input[type="checkbox"] {
+  content: url("../img/star.svg");
+  width: 17px;
+}
+input[type="checkbox"]:checked {
+  content: url('../img/star1.svg');
+  width: 20px;
+}
+.clear-btn{
+  margin-top: 12px;
+  margin-left: -30px;
+  background-color: $blue-light-color;
+  border-radius: 100%;
+  border: 1px solid $blue-color;
+  width: 13px;
+  height: 13px;
+}
+.info-text{
+  text-align: center;
+  font-size: 10px;
+}
+.native-hidden {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.type-name{
+  margin: auto;
+}
+.favourite{
+  margin: auto;
+}
+.native-hidden::selection { background: transparent; } 
+.native-hidden::-moz-selection { background: transparent; }
+
+@media only screen and (max-width: 700px) {
+  .control {
+    width: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .results{
+    font-size: 15px;
+    width: 400px;
+    height: 600px;
+  }
+  .start-picture img{
+    width: 35px;
+  }
+  .btns-container{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .input{
+    width: fit-content;
+  }
+  .control{
+    width: auto;
+  }
+  .results{
+    font-size: 11px;
+    width: 300px;
+    height: 400px;
+  }
+  .btns-container{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+  }
+}
+@media only screen and (min-height: 800px){
+  .results{
+    height: 650px;
+  }
+}
