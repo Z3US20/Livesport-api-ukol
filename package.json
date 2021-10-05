@@ -16,7 +16,6 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "server": "json-server -p 3333 -w server.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
